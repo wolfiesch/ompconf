@@ -13,7 +13,11 @@
 `ompconf` is a standalone config manager for Oh My Pi users. It gives you a browser for MCP servers, skills, plugins, snapshots, and diagnostics without opening config files by hand.
 
 <p align="center">
-  <img src="docs/assets/ompconf-overview.png" alt="ompconf overview screen showing config sections, item counts, and details" width="900">
+  <img src="docs/assets/social-preview.png" alt="ompconf social preview showing the terminal UI and release tagline" width="900">
+</p>
+
+<p align="center">
+  <img src="docs/assets/ompconf-demo.gif" alt="animated ompconf demo switching sections and opening search" width="900">
 </p>
 
 ## Why use it?
@@ -29,6 +33,14 @@
 ## Screenshots
 
 All screenshots below use the sanitized demo fixture in `demo/fixtures`. They do not show a real user profile, private MCP URLs, local home paths, tokens, or personal infrastructure.
+
+### Overview
+
+<p align="center">
+  <img src="docs/assets/ompconf-overview.png" alt="ompconf overview screen showing config sections, item counts, and details" width="900">
+</p>
+
+The Overview screen shows the complete config surface at a glance: diagnostics, MCPs, skills, plugins, and rollback snapshots.
 
 ### MCP browser
 
