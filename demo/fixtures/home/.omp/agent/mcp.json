@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "github-tools": {
+      "type": "http",
+      "url": "https://mcp.example.com/github"
+    },
+    "browser-lab": {
+      "command": "browser-lab",
+      "args": [
+        "--safe-demo"
+      ]
+    },
+    "workspace-index": {
+      "command": "workspace-index",
+      "enabled": false
+    },
+    "docs-search": {
+      "type": "sse",
+      "url": "https://mcp.example.com/docs"
+    }
+  },
+  "disabledServers": [
+    "workspace-index"
+  ]
+}

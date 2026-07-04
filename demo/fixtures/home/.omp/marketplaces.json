@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "marketplaces": [
+    {
+      "id": "demo",
+      "name": "Demo Marketplace",
+      "url": "https://marketplace.example.com"
+    }
+  ]
+}

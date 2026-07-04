@@ -1,0 +1,30 @@
+{
+  "name": "@oh-my-pi/ompconf",
+  "version": "0.1.0",
+  "description": "Standalone OMP config, skill, plugin, and MCP browser",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolfiesch/ompconf.git"
+  },
+  "homepage": "https://github.com/wolfiesch/ompconf#readme",
+  "bugs": {
+    "url": "https://github.com/wolfiesch/ompconf/issues"
+  },
+  "bin": {
+    "ompconf": "src/cli.ts"
+  },
+  "scripts": {
+    "check": "bun scripts/check.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.27",
+    "@types/bun": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}

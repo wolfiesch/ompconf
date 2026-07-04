@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ompconf/plugin-marketplace": "1.0.0",
+    "@ompconf/plugin-team-presets": "1.0.0"
+  }
+}

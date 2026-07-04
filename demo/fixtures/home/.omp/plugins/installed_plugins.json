@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "plugins": [
+    {
+      "id": "marketplace@demo",
+      "packageName": "@ompconf/plugin-marketplace",
+      "enabled": true
+    },
+    {
+      "id": "team-presets@demo",
+      "packageName": "@ompconf/plugin-team-presets",
+      "enabled": false
+    }
+  ]
+}
